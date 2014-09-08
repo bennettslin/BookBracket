@@ -41,6 +41,7 @@
 		3FFB450419BD52230022A097 /* BookBracketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookBracketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFB450919BD52230022A097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FFB450A19BD52230022A097 /* BookBracketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookBracketTests.m; sourceTree = "<group>"; };
+		3FFB451419BD527F0022A097 /* Keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keys.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		3FFB44ED19BD52230022A097 /* BookBracket */ = {
 			isa = PBXGroup;
 			children = (
+				3FFB451419BD527F0022A097 /* Keys.h */,
 				3FFB44F219BD52230022A097 /* AppDelegate.h */,
 				3FFB44F319BD52230022A097 /* AppDelegate.m */,
 				3FFB44F519BD52230022A097 /* MasterViewController.h */,
