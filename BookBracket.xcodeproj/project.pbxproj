@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		3FFB44F119BD52230022A097 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB44F019BD52230022A097 /* main.m */; };
 		3FFB44F419BD52230022A097 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB44F319BD52230022A097 /* AppDelegate.m */; };
-		3FFB44F719BD52230022A097 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB44F619BD52230022A097 /* MasterViewController.m */; };
-		3FFB44FA19BD52230022A097 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB44F919BD52230022A097 /* DetailViewController.m */; };
 		3FFB44FD19BD52230022A097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB44FB19BD52230022A097 /* Main.storyboard */; };
 		3FFB44FF19BD52230022A097 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB44FE19BD52230022A097 /* Images.xcassets */; };
 		3FFB450B19BD52230022A097 /* BookBracketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB450A19BD52230022A097 /* BookBracketTests.m */; };
+		3FFB451819BE8C1B0022A097 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB451719BE8C1B0022A097 /* Model.m */; };
+		3FFB451C19BE8C310022A097 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB451B19BE8C310022A097 /* Book.m */; };
+		3FFB451F19BE906F0022A097 /* GoodreadsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB451E19BE906F0022A097 /* GoodreadsAPI.m */; };
+		3FFB452219BE994B0022A097 /* BooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB452119BE994B0022A097 /* BooksViewController.m */; };
+		3FFB452519BE99590022A097 /* BracketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB452419BE99590022A097 /* BracketViewController.m */; };
+		3FFB452819BE9D940022A097 /* BookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB452719BE9D940022A097 /* BookTableViewCell.m */; };
+		3FFB452B19BE9DAF0022A097 /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB452A19BE9DAF0022A097 /* BookViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,16 +37,27 @@
 		3FFB44F019BD52230022A097 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FFB44F219BD52230022A097 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FFB44F319BD52230022A097 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3FFB44F519BD52230022A097 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		3FFB44F619BD52230022A097 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		3FFB44F819BD52230022A097 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		3FFB44F919BD52230022A097 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		3FFB44FC19BD52230022A097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FFB44FE19BD52230022A097 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3FFB450419BD52230022A097 /* BookBracketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookBracketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFB450919BD52230022A097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FFB450A19BD52230022A097 /* BookBracketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookBracketTests.m; sourceTree = "<group>"; };
 		3FFB451419BD527F0022A097 /* Keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keys.h; sourceTree = "<group>"; };
+		3FFB451519BD573C0022A097 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		3FFB451619BE8C1B0022A097 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		3FFB451719BE8C1B0022A097 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		3FFB451A19BE8C310022A097 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		3FFB451B19BE8C310022A097 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		3FFB451D19BE906F0022A097 /* GoodreadsAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodreadsAPI.h; sourceTree = "<group>"; };
+		3FFB451E19BE906F0022A097 /* GoodreadsAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodreadsAPI.m; sourceTree = "<group>"; };
+		3FFB452019BE994B0022A097 /* BooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksViewController.h; sourceTree = "<group>"; };
+		3FFB452119BE994B0022A097 /* BooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksViewController.m; sourceTree = "<group>"; };
+		3FFB452319BE99590022A097 /* BracketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BracketViewController.h; sourceTree = "<group>"; };
+		3FFB452419BE99590022A097 /* BracketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BracketViewController.m; sourceTree = "<group>"; };
+		3FFB452619BE9D940022A097 /* BookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewCell.h; sourceTree = "<group>"; };
+		3FFB452719BE9D940022A097 /* BookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTableViewCell.m; sourceTree = "<group>"; };
+		3FFB452919BE9DAF0022A097 /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		3FFB452A19BE9DAF0022A097 /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +100,18 @@
 			isa = PBXGroup;
 			children = (
 				3FFB451419BD527F0022A097 /* Keys.h */,
+				3FFB451519BD573C0022A097 /* Constants.h */,
 				3FFB44F219BD52230022A097 /* AppDelegate.h */,
 				3FFB44F319BD52230022A097 /* AppDelegate.m */,
-				3FFB44F519BD52230022A097 /* MasterViewController.h */,
-				3FFB44F619BD52230022A097 /* MasterViewController.m */,
-				3FFB44F819BD52230022A097 /* DetailViewController.h */,
-				3FFB44F919BD52230022A097 /* DetailViewController.m */,
+				3FFB452019BE994B0022A097 /* BooksViewController.h */,
+				3FFB452119BE994B0022A097 /* BooksViewController.m */,
+				3FFB452619BE9D940022A097 /* BookTableViewCell.h */,
+				3FFB452719BE9D940022A097 /* BookTableViewCell.m */,
+				3FFB452319BE99590022A097 /* BracketViewController.h */,
+				3FFB452419BE99590022A097 /* BracketViewController.m */,
+				3FFB452919BE9DAF0022A097 /* BookViewController.h */,
+				3FFB452A19BE9DAF0022A097 /* BookViewController.m */,
+				3FFB451919BE8C1F0022A097 /* Model */,
 				3FFB44FB19BD52230022A097 /* Main.storyboard */,
 				3FFB44FE19BD52230022A097 /* Images.xcassets */,
 				3FFB44EE19BD52230022A097 /* Supporting Files */,
@@ -121,6 +143,19 @@
 				3FFB450919BD52230022A097 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FFB451919BE8C1F0022A097 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FFB451D19BE906F0022A097 /* GoodreadsAPI.h */,
+				3FFB451E19BE906F0022A097 /* GoodreadsAPI.m */,
+				3FFB451619BE8C1B0022A097 /* Model.h */,
+				3FFB451719BE8C1B0022A097 /* Model.m */,
+				3FFB451A19BE8C310022A097 /* Book.h */,
+				3FFB451B19BE8C310022A097 /* Book.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,10 +257,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FFB452B19BE9DAF0022A097 /* BookViewController.m in Sources */,
 				3FFB44F419BD52230022A097 /* AppDelegate.m in Sources */,
-				3FFB44F719BD52230022A097 /* MasterViewController.m in Sources */,
+				3FFB452219BE994B0022A097 /* BooksViewController.m in Sources */,
 				3FFB44F119BD52230022A097 /* main.m in Sources */,
-				3FFB44FA19BD52230022A097 /* DetailViewController.m in Sources */,
+				3FFB452519BE99590022A097 /* BracketViewController.m in Sources */,
+				3FFB452819BE9D940022A097 /* BookTableViewCell.m in Sources */,
+				3FFB451C19BE8C310022A097 /* Book.m in Sources */,
+				3FFB451F19BE906F0022A097 /* GoodreadsAPI.m in Sources */,
+				3FFB451819BE8C1B0022A097 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +333,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -412,6 +452,7 @@
 				3FFB451019BD52230022A097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FFB451119BD52230022A097 /* Build configuration list for PBXNativeTarget "BookBracketTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +461,7 @@
 				3FFB451319BD52230022A097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
